@@ -1,0 +1,61 @@
+.jumbotron {
+  @include flex-r-st-c;
+  width: 80%;
+  margin: auto;
+  padding: $fixedPadding;
+
+  .left,
+  .right {
+    width: 50%;
+  }
+
+  .left {
+    @include flex-col-c-c;
+    gap: 50px;
+
+    span {
+      color: $textColor;
+    }
+    h1 {
+      color: $titleColor;
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: $textColor;
+      font-size: 1.5rem;
+    }
+
+    .logos,
+    span {
+      align-self: start;
+    }
+
+    .logos {
+      @include flex-r-c-st;
+      gap: 20px;
+      width: 100%;
+      span {
+        height: 33px;
+        line-height: 33px;
+      }
+      button {
+        @include button;
+        @include flex-r-c-c;
+        font-size: 1.2rem;
+
+        img {
+          width: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .right {
+    img {
+      width: 100%;
+    }
+  }
+}

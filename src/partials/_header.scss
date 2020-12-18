@@ -2,9 +2,10 @@ header {
   .header-content {
     @include flex-r-c-s;
     height: 80px;
-    width: 70%;
+    width: 80%;
     margin: auto;
-    border-bottom: 1px solid black;
+    margin-top: 40px;
+    border-bottom: 1px solid #58402c;
 
     .logo {
       opacity: 0.7;
