@@ -105,7 +105,7 @@ header .header-content .list-section ul li button img {
   justify-content: center;
   width: 80%;
   margin: auto;
-  padding: 100px 0;
+  padding: 110px 0;
 }
 
 .jumbotron .left,
@@ -230,7 +230,7 @@ header .header-content .list-section ul li button img {
 }
 
 .section-color .second-part {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .section-color .title {
@@ -239,5 +239,92 @@ header .header-content .list-section ul li button img {
 
 .section-color hr {
   color: #58402c;
+}
+
+.center {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center .block-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 100px;
+}
+
+.center .block-container:nth-child(even) {
+  align-self: flex-end;
+}
+
+.center .block-container:nth-child(odd) {
+  align-self: flex-start;
+}
+
+.center .block-container.big-right .left-side {
+  width: 30%;
+}
+
+.center .block-container.big-right .right-side {
+  width: 70%;
+}
+
+.center .block-container.big-right .infobox img {
+  transform: translateY(35%);
+}
+
+.center .block-container.big-left .left-side {
+  width: 70%;
+}
+
+.center .block-container.big-left .right-side {
+  width: 30%;
+}
+
+.center .block-container.big-left .infobox img {
+  transform: translateY(55%);
+}
+
+.center .block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.center .block .infobox {
+  padding-top: 20px;
+}
+
+.center .block .infobox h3 {
+  color: #58402c;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.center .block .infobox p {
+  font-size: 1.2rem;
+  color: #58402c;
+  margin-bottom: 50px;
+}
+
+.center .block .infobox a {
+  color: steelblue;
+  font-size: 1.5rem;
+}
+
+.center .block .infobox img {
+  max-width: 80%;
+}
+
+.center .block img {
+  width: 100%;
 }
 
