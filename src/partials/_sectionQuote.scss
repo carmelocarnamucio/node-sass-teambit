@@ -1,0 +1,68 @@
+.quote {
+  background-color: $orange;
+}
+
+.quote-content {
+  padding: $fixedPadding;
+  width: 30%;
+  margin: auto;
+  @include flex-col-c-c;
+
+  h2 {
+    font-size: 2rem;
+    color: $titleColor;
+    margin-bottom: 35px;
+  }
+
+  .logos {
+    @include flex-r-c-st;
+    gap: 20px;
+    width: 100%;
+    span {
+      height: 33px;
+      line-height: 33px;
+    }
+    button {
+      @include flex-r-c-c;
+      font-size: 1rem;
+      padding: 7px 10px;
+      background-color: $buttonColor;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-style: inherit;
+      font-family: inherit;
+
+      img {
+        width: 15px;
+        margin-right: 5px;
+      }
+    }
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .whiteboard {
+    font-size: 16px;
+    min-width: 628px;
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: rgb(92, 60, 1);
+
+    .letter-footer {
+      @include flex-r-c-st;
+      margin-top: 50px;
+      img {
+        height: 50px;
+        margin-right: 25px;
+      }
+
+      & div:first-child {
+        color: steelblue;
+      }
+    }
+  }
+}
