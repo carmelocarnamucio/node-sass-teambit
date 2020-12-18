@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+header .header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 70%;
+  margin: auto;
+  border-bottom: 1px solid black;
+}
+
+header .header-content .logo {
+  opacity: 0.7;
+}
+
+header .header-content .logo img {
+  vertical-align: middle;
+}
+
+header .header-content .logo span {
+  opacity: inherit;
+  font-size: 1.5rem;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+header .header-content .list-section {
+  min-width: 500px;
+}
+
+header .header-content .list-section ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .header-content .list-section ul li {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+header .header-content .list-section ul li:not(:last-child) {
+  color: grey;
+}
+
+header .header-content .list-section ul li button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 10px 20px;
+  background-color: inherit;
+  color: steelblue;
+  border: 1px solid steelblue;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+header .header-content .list-section ul li button img {
+  margin-right: 5px;
+  width: 30%;
+}
+

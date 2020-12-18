@@ -1,0 +1,53 @@
+header {
+  .header-content {
+    @include flex-r-c-s;
+    height: 80px;
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid black;
+
+    .logo {
+      opacity: 0.7;
+      img {
+        vertical-align: middle;
+      }
+      span {
+        opacity: inherit;
+        font-size: 1.5rem;
+        margin-left: 30px;
+        vertical-align: middle;
+      }
+    }
+    .list-section {
+      min-width: 500px;
+      ul {
+        @include flex-r-c-s;
+
+        li {
+          font-weight: bold;
+          font-size: 1rem;
+          &:not(:last-child){
+            color:$textColor;
+          }
+          button {
+            @include flex-r-c-c;
+            font-weight: inherit;
+            font-family: inherit;
+            font-size: inherit;
+            padding: 10px 20px;
+            background-color: inherit;
+            color: steelblue;
+            border: 1px solid steelblue;
+            border-radius: 5px;
+            white-space: nowrap;
+
+            img {
+              margin-right: 5px;
+              width: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
