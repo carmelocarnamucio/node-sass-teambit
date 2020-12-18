@@ -10,7 +10,7 @@
 
   h2 {
     font-size: 2rem;
-    color: $titleColor;
+    color: $textColor;
     margin-bottom: 35px;
   }
 
@@ -50,7 +50,7 @@
     background-color: white;
     border-radius: 10px;
     border: 1px solid black;
-    color: rgb(92, 60, 1);
+    color: $textColor;
 
     .letter-footer {
       @include flex-r-c-st;

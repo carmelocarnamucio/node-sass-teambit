@@ -53,7 +53,7 @@ header .header-content .logo img {
 
 header .header-content .logo span {
   font-size: 1.3rem;
-  color: #58402c;
+  color: #040F0F;
   vertical-align: middle;
 }
 
@@ -74,7 +74,7 @@ header .header-content .list-section ul li {
 }
 
 header .header-content .list-section ul li:not(:last-child) {
-  color: #58402c;
+  color: #040F0F;
 }
 
 header .header-content .list-section ul li button {
@@ -122,17 +122,17 @@ header .header-content .list-section ul li button img {
 }
 
 .jumbotron .left span {
-  color: #58402c;
+  color: #040F0F;
 }
 
 .jumbotron .left h1 {
-  color: #58402c;
+  color: #040F0F;
   font-size: 3rem;
   margin-bottom: 20px;
 }
 
 .jumbotron .left p {
-  color: #58402c;
+  color: #040F0F;
   font-size: 1.5rem;
 }
 
@@ -157,7 +157,7 @@ header .header-content .list-section ul li button img {
 
 .jumbotron .left .logos button {
   padding: 5px 10px;
-  background-color: #30488f;
+  background-color: #7F14EE;
   color: white;
   border: none;
   border-radius: 5px;
@@ -180,7 +180,7 @@ header .header-content .list-section ul li button img {
 }
 
 .color {
-  background-color: #ffe7d2;
+  background-color: #4466D4;
   width: 100%;
 }
 
@@ -193,7 +193,7 @@ header .header-content .list-section ul li button img {
 
 .section-color .title {
   text-align: center;
-  color: #58402c;
+  color: #040F0F;
   margin-bottom: 150px;
   font-size: 1.5rem;
 }
@@ -216,7 +216,7 @@ header .header-content .list-section ul li button img {
 }
 
 .section-color .images .image div {
-  color: #58402c;
+  color: #040F0F;
   font-size: 1.2rem;
 }
 
@@ -238,7 +238,7 @@ header .header-content .list-section ul li button img {
 }
 
 .section-color hr {
-  color: #58402c;
+  color: #040F0F;
 }
 
 .center {
@@ -304,14 +304,14 @@ header .header-content .list-section ul li button img {
 }
 
 .center .block .infobox h3 {
-  color: #58402c;
+  color: #040F0F;
   font-size: 2rem;
   margin-bottom: 50px;
 }
 
 .center .block .infobox p {
   font-size: 1.2rem;
-  color: #58402c;
+  color: #040F0F;
   margin-bottom: 50px;
 }
 
@@ -329,7 +329,7 @@ header .header-content .list-section ul li button img {
 }
 
 .quote {
-  background-color: #ffe7d2;
+  background-color: #4466D4;
 }
 
 .quote-content {
@@ -344,7 +344,7 @@ header .header-content .list-section ul li button img {
 
 .quote-content h2 {
   font-size: 2rem;
-  color: #58402c;
+  color: #040F0F;
   margin-bottom: 35px;
 }
 
@@ -371,7 +371,7 @@ header .header-content .list-section ul li button img {
   justify-content: center;
   font-size: 1rem;
   padding: 7px 10px;
-  background-color: #30488f;
+  background-color: #7F14EE;
   color: white;
   border: none;
   border-radius: 5px;
@@ -392,7 +392,7 @@ header .header-content .list-section ul li button img {
   background-color: white;
   border-radius: 10px;
   border: 1px solid black;
-  color: #5c3c01;
+  color: #040F0F;
 }
 
 .quote-content .whiteboard .letter-footer {

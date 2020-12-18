@@ -11,7 +11,7 @@
 
   .title {
     text-align: center;
-    color: $titleColor;
+    color: $textColor;
     margin-bottom: 150px;
     font-size: 1.5rem;
   }
@@ -51,6 +51,6 @@
   }
 
   hr {
-    color: $titleColor;
+    color: $textColor;
   }
 }
