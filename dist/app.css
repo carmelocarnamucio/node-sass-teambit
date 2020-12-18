@@ -46,18 +46,14 @@ header .header-content {
   border-bottom: 1px solid #58402c;
 }
 
-header .header-content .logo {
+header .header-content .logo img {
+  vertical-align: middle;
   opacity: 0.7;
 }
 
-header .header-content .logo img {
-  vertical-align: middle;
-}
-
 header .header-content .logo span {
-  opacity: inherit;
-  font-size: 1.5rem;
-  margin-left: 30px;
+  font-size: 1.3rem;
+  color: #58402c;
   vertical-align: middle;
 }
 
@@ -109,7 +105,7 @@ header .header-content .list-section ul li button img {
   justify-content: center;
   width: 80%;
   margin: auto;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .jumbotron .left,
@@ -161,7 +157,7 @@ header .header-content .list-section ul li button img {
 
 .jumbotron .left .logos button {
   padding: 5px 10px;
-  background-color: darkblue;
+  background-color: #30488f;
   color: white;
   border: none;
   border-radius: 5px;
@@ -181,5 +177,67 @@ header .header-content .list-section ul li button img {
 
 .jumbotron .right img {
   width: 100%;
+}
+
+.color {
+  background-color: #ffe7d2;
+  width: 100%;
+}
+
+.section-color {
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+  padding-bottom: 0;
+}
+
+.section-color .title {
+  text-align: center;
+  color: #58402c;
+  margin-bottom: 150px;
+  font-size: 1.5rem;
+}
+
+.section-color .images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-color .images .image {
+  text-align: center;
+  margin: 50px 0 200px 0;
+}
+
+.section-color .images .image img {
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.section-color .images .image div {
+  color: #58402c;
+  font-size: 1.2rem;
+}
+
+.section-color .rabbit {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.section-color .rabbit img {
+  max-width: 280px;
+}
+
+.section-color .second-part {
+  padding: 100px 0;
+}
+
+.section-color .title {
+  margin-bottom: 50px;
+}
+
+.section-color hr {
+  color: #58402c;
 }
 

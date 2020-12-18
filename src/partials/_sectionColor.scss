@@ -1,0 +1,56 @@
+.color {
+  background-color: $orange;
+  width: 100%;
+}
+
+.section-color {
+  width: 70%;
+  margin: auto;
+  padding: $fixedPadding;
+  padding-bottom: 0;
+
+  .title {
+    text-align: center;
+    color: $titleColor;
+    margin-bottom: 150px;
+    font-size: 1.5rem;
+  }
+
+  .images {
+    @include flex-r-c-s;
+
+    .image {
+      text-align: center;
+      margin: 50px 0 200px 0;
+      img {
+        height: 100px;
+        margin-bottom: 50px;
+      }
+
+      div {
+        color: $textColor;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .rabbit {
+    text-align: center;
+    margin-bottom: 150px;
+
+    img {
+      max-width: 280px;
+    }
+  }
+
+  .second-part {
+    padding: 100px 0;
+  }
+  .title {
+    margin-bottom: 50px;
+  }
+
+  hr {
+    color: $titleColor;
+  }
+}
