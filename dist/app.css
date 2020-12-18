@@ -42,8 +42,8 @@ header .header-content {
   height: 80px;
   width: 80%;
   margin: auto;
-  margin-top: 40px;
-  border-bottom: 1px solid #58402c;
+  margin-top: 70px;
+  border-bottom: 1px solid #040F0F;
 }
 
 header .header-content .logo img {
@@ -69,12 +69,7 @@ header .header-content .list-section ul {
 }
 
 header .header-content .list-section ul li {
-  font-weight: bold;
   font-size: 1rem;
-}
-
-header .header-content .list-section ul li:not(:last-child) {
-  color: #040F0F;
 }
 
 header .header-content .list-section ul li button {
@@ -195,7 +190,7 @@ header .header-content .list-section ul li button img {
   text-align: center;
   color: #040F0F;
   margin-bottom: 150px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .section-color .images {
@@ -207,7 +202,7 @@ header .header-content .list-section ul li button img {
 
 .section-color .images .image {
   text-align: center;
-  margin: 50px 0 200px 0;
+  margin: 50px 0 100px 0;
 }
 
 .section-color .images .image img {
@@ -258,6 +253,10 @@ header .header-content .list-section ul li button img {
   margin-bottom: 100px;
 }
 
+.center .block-container:last-child {
+  margin-bottom: 0px;
+}
+
 .center .block-container:nth-child(even) {
   align-self: flex-end;
 }
@@ -296,7 +295,7 @@ header .header-content .list-section ul li button img {
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .center .block .infobox {
@@ -305,7 +304,7 @@ header .header-content .list-section ul li button img {
 
 .center .block .infobox h3 {
   color: #040F0F;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 50px;
 }
 
@@ -369,14 +368,14 @@ header .header-content .list-section ul li button img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
-  padding: 7px 10px;
+  padding: 5px 10px;
   background-color: #7F14EE;
   color: white;
   border: none;
   border-radius: 5px;
   font-style: inherit;
   font-family: inherit;
+  font-size: 1rem;
 }
 
 .quote-content .logos button img {
@@ -438,7 +437,7 @@ footer .left-side .footer-text {
 }
 
 footer .left-side .footer-text span {
-  color: #040F0F;
+  color: #7F14EE;
 }
 
 footer .left-side .footer-text p {

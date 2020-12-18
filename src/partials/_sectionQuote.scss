@@ -24,14 +24,8 @@
     }
     button {
       @include flex-r-c-c;
+      @include button;
       font-size: 1rem;
-      padding: 7px 10px;
-      background-color: $buttonColor;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      font-style: inherit;
-      font-family: inherit;
 
       img {
         width: 15px;

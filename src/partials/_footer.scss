@@ -13,7 +13,7 @@ footer {
     .footer-text {
       @include flex-r-c-st;
       span {
-        color: $textColor;
+        color: $buttonColor;
       }
 
       p {

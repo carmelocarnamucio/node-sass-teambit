@@ -4,8 +4,8 @@ header {
     height: 80px;
     width: 80%;
     margin: auto;
-    margin-top: 40px;
-    border-bottom: 1px solid #58402c;
+    margin-top: 70px;
+    border-bottom: 1px solid $textColor;
 
     .logo {
       img {
@@ -24,11 +24,8 @@ header {
         @include flex-r-c-s;
 
         li {
-          font-weight: bold;
           font-size: 1rem;
-          &:not(:last-child){
-            color:$textColor;
-          }
+
           button {
             @include flex-r-c-c;
             font-weight: inherit;

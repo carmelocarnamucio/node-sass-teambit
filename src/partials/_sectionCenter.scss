@@ -6,6 +6,9 @@
     width: 80%;
     @include flex-r-c-st;
     margin-bottom: 100px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
 
     &:nth-child(even) {
       align-self: flex-end;
@@ -45,13 +48,13 @@
   .block {
     @include flex-r-st-c;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 
     .infobox {
       padding-top: 20px;
       h3 {
         color: $textColor;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 50px;
       }
       p {
