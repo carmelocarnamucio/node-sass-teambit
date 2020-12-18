@@ -412,3 +412,65 @@ header .header-content .list-section ul li button img {
   color: steelblue;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px 0;
+  color: #040F0F;
+  width: 80%;
+  margin: auto;
+  font-weight: 500;
+}
+
+footer .left-side {
+  padding: 50px 0;
+  align-self: start;
+  width: 25%;
+}
+
+footer .left-side .footer-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+footer .left-side .footer-text span {
+  color: #040F0F;
+}
+
+footer .left-side .footer-text p {
+  font-size: 18px;
+}
+
+footer .right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 75%;
+  padding: 50px 0 30px 90px;
+}
+
+footer .right-side .box {
+  width: 100%/5;
+}
+
+footer .right-side .box:last-child {
+  max-width: 250px;
+}
+
+footer .right-side .box p {
+  line-height: 35px;
+}
+
+footer .right-side .box h2 {
+  margin-bottom: 25px;
+}
+
+footer .right-side .box li {
+  margin-bottom: 10px;
+}
+

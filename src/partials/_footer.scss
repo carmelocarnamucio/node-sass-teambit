@@ -1,0 +1,49 @@
+footer {
+  @include flex-r-c-st;
+  padding: $fixedPadding;
+  color: $textColor;
+  width: 80%;
+  margin: auto;
+  font-weight: 500;
+
+  .left-side {
+    padding: $fixedPadding;
+    align-self: start;
+    width: 25%;
+    .footer-text {
+      @include flex-r-c-st;
+      span {
+        color: $textColor;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  .right-side {
+    @include flex-r-st-sa;
+    width: 75%;
+    padding: 50px 0 30px 90px;
+
+    .box {
+      width: 100% / 5;
+
+      &:last-child {
+        max-width: 250px;
+      }
+
+      p {
+        line-height: 35px;
+      }
+
+      h2 {
+        margin-bottom: 25px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
