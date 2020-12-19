@@ -46,6 +46,15 @@
     border: 1px solid black;
     color: $textColor;
 
+    .fa-quote-left {
+      position: relative;
+      top: -30px;
+      left: -30px;
+      transform: translate(-5%, -55%);
+      font-size: 40px;
+      color: $buttonColor;
+    }
+
     .letter-footer {
       @include flex-r-c-st;
       margin-top: 50px;
@@ -55,7 +64,7 @@
       }
 
       & div:first-child {
-        color: steelblue;
+        color: $blue;
       }
     }
   }

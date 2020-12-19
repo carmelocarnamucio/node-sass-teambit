@@ -2,14 +2,14 @@ footer {
   @include flex-r-c-st;
   padding: $fixedPadding;
   color: $textColor;
-  width: 80%;
+  width: 90%;
   margin: auto;
   font-weight: 500;
 
   .left-side {
     padding: $fixedPadding;
     align-self: start;
-    width: 25%;
+    width: 35%;
     .footer-text {
       @include flex-r-c-st;
       span {
@@ -19,6 +19,12 @@ footer {
       p {
         font-size: 18px;
       }
+    }
+
+    img {
+      height: 45px;
+      width: 130px;
+      margin-right: 15px;
     }
   }
   .right-side {
